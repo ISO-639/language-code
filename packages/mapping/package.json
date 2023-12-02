@@ -1,12 +1,48 @@
 {
   "name": "@iso-639/mapping",
-  "description": "ISO 639 Language Mapping.",
-  "version": "0.1.0",
+  "description": "ISO 639 language code mapping toolkit, which can easily help you manage language data.",
+  "version": "0.2.0",
   "author": "chengpeiquan <chengpeiquan@chengpeiquan.com>",
+  "homepage": "https://github.com/ISO-639/language-code/tree/main/packages/mapping",
   "license": "MIT",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
   },
-  "keywords": []
+  "scripts": {
+    "build": "tsup --config tsup.config.mts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ISO-639/language-code.git"
+  },
+  "keywords": [
+    "iso-639",
+    "iso-639-1",
+    "iso-639-2",
+    "language",
+    "language code",
+    "language json",
+    "language data",
+    "language mapping",
+    "locale",
+    "locale code",
+    "i18n",
+    "i18n code"
+  ],
+  "dependencies": {
+    "@bassist/utils": "^0.14.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.1"
+  }
 }
