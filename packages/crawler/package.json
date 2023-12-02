@@ -1,0 +1,17 @@
+{
+  "name": "@iso-639/crawler",
+  "description": "ISO 639 Language data Crawler.",
+  "version": "0.1.0",
+  "author": "chengpeiquan <chengpeiquan@chengpeiquan.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "tsx ./src/index.mts"
+  },
+  "dependencies": {
+    "@bassist/utils": "^0.14.0",
+    "axios": "^1.6.2",
+    "chalk": "^5.3.0",
+    "cheerio": "1.0.0-rc.12"
+  }
+}
