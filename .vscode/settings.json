@@ -1,4 +1,4 @@
 {
   "eslint.experimental.useFlatConfig": true,
-  "cSpell.words": ["Elems", "inconnu", "Unbekannt", "withtypes"]
+  "cSpell.words": ["Elems", "iife", "inconnu", "tsup", "Unbekannt", "withtypes"]
 }

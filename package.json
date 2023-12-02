@@ -1,5 +1,5 @@
 {
-  "name": "@iso-639/monorepo",
+  "name": "@iso-639/language-code",
   "description": "ISO 639 Language Mapping.",
   "version": "0.1.0",
   "author": "chengpeiquan <chengpeiquan@chengpeiquan.com>",
@@ -8,14 +8,19 @@
   "type": "module",
   "scripts": {
     "crawling": "pnpm -F crawler start",
+    "build": "pnpm gen:bundles",
+    "gen:bundles": "tsx ./scripts/generate-bundles.mts",
     "gen:changelog": "tsx ./scripts/generate-changelog.mts",
+    "gen:version": "tsx ./scripts/generate-version.mts",
     "gen:release": "tsx ./scripts/generate-release.mts",
+    "test": "vitest",
     "prepare": "husky install"
   },
   "devDependencies": {
     "@bassist/commit": "^0.1.0",
     "@bassist/eslint": "^0.5.0",
     "@bassist/tsconfig": "^0.1.1",
+    "@bassist/utils": "^0.14.0",
     "@types/node": "^20.10.1",
     "@withtypes/minimist": "^0.1.1",
     "conventional-changelog-cli": "^4.1.0",
@@ -24,7 +29,8 @@
     "lint-staged": "^15.1.0",
     "prettier": "^3.1.0",
     "tsx": "^4.6.1",
-    "typescript": "^5.3.2"
+    "typescript": "^5.3.2",
+    "vitest": "^0.34.6"
   },
   "lint-staged": {
     "*.{js,jsx,vue,ts,tsx}": [

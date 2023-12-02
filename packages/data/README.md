@@ -7,8 +7,8 @@
   <a href="https://www.npmjs.com/package/@iso-639/data" target="__blank">
     <img src="https://img.shields.io/npm/dt/@iso-639/data?color=f43f5e&label=downloads" />
   </a>
-  <a href="https://github.com/ISO-639/mapping" target="__blank">
-    <img alt="GitHub stars" src="https://img.shields.io/github/stars/ISO-639/mapping?style=social" />
+  <a href="https://github.com/ISO-639/language-code" target="__blank">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/ISO-639/language-code?style=social" />
   </a>
 </p>
 
@@ -16,7 +16,7 @@ Contains code lists for ISO 639-1 and ISO 639-2 as well as multi-language suppor
 
 ## Friendly Reminder
 
-We provided [@iso-639/mapping](https://www.npmjs.com/package/@iso-639/mapping) mapping toolkit, which can easily help you manage language data.
+We provided [@iso-639/mapping](https://github.com/ISO-639/language-code/tree/main/packages/mapping) mapping toolkit, which can easily help you manage language data.
 
 ## Usage
 
@@ -51,11 +51,11 @@ With CDN:
 
 JSON files named with language codes in the source code directory are supported languages.
 
-See: [Source Code](https://github.com/ISO-639/mapping/tree/main/packages/data)
+See: [Source Code](https://github.com/ISO-639/language-code/tree/main/packages/data)
 
 ## Release Notes
 
-Please refer to [CHANGELOG](https://github.com/ISO-639/mapping/tree/main/packages/data/CHANGELOG.md) for details.
+Please refer to [CHANGELOG](https://github.com/ISO-639/language-code/tree/main/packages/data/CHANGELOG.md) for details.
 
 ## License
 

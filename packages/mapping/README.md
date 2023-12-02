@@ -22,6 +22,8 @@ With npm(or yarn, or pnpm):
 npm install @iso-639/data @iso-639/mapping
 ```
 
+Yes, it is recommended to also install the `@iso-639/data` ISO 639 data package, which contains the code data for multi-language versions of `ISO 639-1` and `ISO 639-2`. Of course, you can also obtain this data by requesting a CDN, see the instructions of [@iso-639/data](https://github.com/ISO-639/language-code/tree/main/packages/data) for details.
+
 In `.js` / `.ts` or other files:
 
 ```ts

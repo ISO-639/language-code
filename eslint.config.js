@@ -5,6 +5,9 @@ export default defineConfig([
   ...prettier,
   ...typescript,
   {
+    rules: {
+      '@typescript-eslint/prefer-ts-expect-error': 'off',
+    },
     ignores: ['dist', 'lib'],
   },
 ])
