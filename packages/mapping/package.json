@@ -1,0 +1,12 @@
+{
+  "name": "@iso-639/mapping",
+  "description": "ISO 639 Language Mapping.",
+  "version": "0.1.0",
+  "author": "chengpeiquan <chengpeiquan@chengpeiquan.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": []
+}

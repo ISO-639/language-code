@@ -1,0 +1,35 @@
+{
+  "name": "@iso-639/monorepo",
+  "description": "ISO 639 Language Mapping.",
+  "version": "0.1.0",
+  "author": "chengpeiquan <chengpeiquan@chengpeiquan.com>",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "crawling": "pnpm -F crawler start",
+    "gen:changelog": "tsx ./scripts/generate-changelog.mts",
+    "gen:release": "tsx ./scripts/generate-release.mts",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@bassist/commit": "^0.1.0",
+    "@bassist/eslint": "^0.5.0",
+    "@bassist/tsconfig": "^0.1.1",
+    "@types/node": "^20.10.1",
+    "@withtypes/minimist": "^0.1.1",
+    "conventional-changelog-cli": "^4.1.0",
+    "eslint": "^8.54.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.1.0",
+    "prettier": "^3.1.0",
+    "tsx": "^4.6.1",
+    "typescript": "^5.3.2"
+  },
+  "lint-staged": {
+    "*.{js,jsx,vue,ts,tsx}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
+  }
+}
