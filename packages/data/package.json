@@ -17,8 +17,14 @@
     "iso-639",
     "iso-639-1",
     "iso-639-2",
+    "language",
+    "language code",
     "language json",
     "language data",
-    "language mapping"
+    "language mapping",
+    "locale",
+    "locale code",
+    "i18n",
+    "i18n code"
   ]
 }
