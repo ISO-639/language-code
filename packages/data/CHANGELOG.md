@@ -1,3 +1,12 @@
+# 0.2.0 (2023-12-02)
+
+
+### Features
+
+* **data:** added instructions for using mapping toolkit ([0279de5](https://github.com/ISO-639/language-code/commit/0279de5cf3f09e416f0b83a69bd6f6f10df7f3e1))
+
+
+
 # 0.1.0 (2023-12-02)
 
 
