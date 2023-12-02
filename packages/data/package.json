@@ -1,17 +1,17 @@
 {
   "name": "@iso-639/data",
   "description": "Contains code lists for ISO 639-1 and ISO 639-2 as well as multi-language support.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "chengpeiquan <chengpeiquan@chengpeiquan.com>",
-  "homepage": "https://github.com/ISO-639/mapping/tree/main/packages/data",
+  "homepage": "https://github.com/ISO-639/language-code/tree/main/packages/data",
   "license": "MIT",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
-  },
+  "files": [
+    "1",
+    "2"
+  ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:ISO-639/mapping.git"
+    "url": "git@github.com:ISO-639/language-code.git"
   },
   "keywords": [
     "iso-639",

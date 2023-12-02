@@ -14,6 +14,10 @@
 
 Contains code lists for ISO 639-1 and ISO 639-2 as well as multi-language support.
 
+## Friendly Reminder
+
+We provided [@iso-639/mapping](https://www.npmjs.com/package/@iso-639/mapping) mapping toolkit, which can easily help you manage language data.
+
 ## Usage
 
 With npm(or yarn, or pnpm):
