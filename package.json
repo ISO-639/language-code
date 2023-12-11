@@ -7,8 +7,10 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "dev": "pnpm -F docs dev",
     "crawling": "pnpm -F crawler start",
     "build": "pnpm gen:bundles",
+    "build:docs": "pnpm -F docs build",
     "gen:bundles": "tsx ./scripts/generate-bundles.mts",
     "gen:changelog": "tsx ./scripts/generate-changelog.mts",
     "gen:version": "tsx ./scripts/generate-version.mts",
