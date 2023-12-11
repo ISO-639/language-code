@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.headline {
+  font-size: min(4.375rem, max(8vw, 2.5rem));
+  line-height: 1.4;
+  background-image: linear-gradient(146deg, #000, #757a7d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.dark .headline {
+  background-image: linear-gradient(146deg, #fff, #757a7d);
+}
