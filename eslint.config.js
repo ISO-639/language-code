@@ -1,9 +1,9 @@
 // @ts-check
-import { defineConfig, prettier, typescript } from '@bassist/eslint'
+import { defineConfig, prettier, react } from '@bassist/eslint'
 
 export default defineConfig([
   ...prettier,
-  ...typescript,
+  ...react,
   {
     rules: {
       '@typescript-eslint/prefer-ts-expect-error': 'off',

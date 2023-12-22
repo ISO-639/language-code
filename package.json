@@ -18,6 +18,10 @@
     "test": "vitest",
     "prepare": "husky install"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ISO-639/language-code.git"
+  },
   "devDependencies": {
     "@bassist/commit": "^0.1.0",
     "@bassist/eslint": "^0.5.0",
