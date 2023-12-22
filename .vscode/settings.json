@@ -1,4 +1,14 @@
 {
   "eslint.experimental.useFlatConfig": true,
-  "cSpell.words": ["Elems", "iife", "inconnu", "tsup", "Unbekannt", "withtypes"]
+  "cSpell.words": [
+    "clsx",
+    "Elems",
+    "iife",
+    "inconnu",
+    "nextra",
+    "tailwindcss",
+    "tsup",
+    "Unbekannt",
+    "withtypes"
+  ]
 }
