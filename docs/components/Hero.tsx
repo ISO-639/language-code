@@ -10,7 +10,7 @@ export const Hero: React.FC = () => {
   const btnCls = clsx(
     'flex flex-shrink-0 items-center justify-center',
     'rounded-lg max-w-full h-12 px-6',
-    '!text-white dark:!text-black',
+    '!text-white dark:!text-black font-bold',
     'bg-slate-900 hover:bg-slate-700',
     'dark:bg-zinc-100 dark:highlight-white/20 dark:hover:bg-zinc-200',
     'focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 ',
