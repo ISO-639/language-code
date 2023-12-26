@@ -2,8 +2,6 @@ import React, { useMemo } from 'react'
 import pkg from '../../package.json'
 
 export const Copyright: React.FC = () => {
-  console.log(pkg)
-
   const author = useMemo(() => {
     const [name] = pkg.author.split(' ')
     return name

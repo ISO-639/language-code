@@ -4,8 +4,8 @@ import { Copyright } from './components/Copyright'
 
 export default {
   logo: <Logo />,
-  primaryHue: 10,
-  gitTimestamp: false,
+  primaryHue: 20,
+  gitTimestamp: () => null,
   footer: {
     text: <Copyright />,
   },
