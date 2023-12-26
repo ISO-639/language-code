@@ -10,3 +10,4 @@ package-lock.json
 coverage
 .next
 out
+doc_build

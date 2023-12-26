@@ -8,6 +8,10 @@
       "sidebar": false,
       "toc": false,
       "pagination": false
-    }
-  }
+    },
+    "display": "hidden"
+  },
+  "getting-started": "Getting Started",
+  "data": "Language Data",
+  "mapping": "Language Mapping"
 }

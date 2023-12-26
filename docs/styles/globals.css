@@ -9,8 +9,19 @@
   );
 }
 
+:root {
+  --code-block-bg: #f6f6f6;
+}
+:root.dark {
+  --code-block-bg: #202020;
+}
+
 .nextra-nav-container-blur {
   box-shadow: none !important;
+}
+
+.nextra-code-block > pre {
+  background-color: var(--code-block-bg) !important;
 }
 
 .luster {
