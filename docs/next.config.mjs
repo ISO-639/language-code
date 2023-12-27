@@ -5,13 +5,9 @@ const withNextra = nextra({
   themeConfig: './theme.config.tsx',
 })
 
-// const isProd = process.env.NODE_ENV === 'production'
-
 export default withNextra({
   output: 'export',
   distDir: 'dist',
-  // basePath: isProd ? '/language-code' : undefined,
-  // assetPrefix: isProd ? '/language-code/' : undefined,
   images: {
     unoptimized: true,
   },
