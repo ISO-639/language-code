@@ -8,7 +8,7 @@ export const Logo: React.FC = () => {
   return (
     <div className="flex items-center gap-3">
       <img
-        className="flex flex-shrink-0 w-6 rounded"
+        className="flex flex-shrink-0 w-6 rounded select-none pointer-events-none"
         src={logo}
         alt={WEBSITE_TITLE}
       />
