@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import clsx from 'clsx'
 import { WEBSITE_TITLE } from '../constants'
 import { Link } from 'nextra-theme-docs'
@@ -6,6 +6,12 @@ import { useAppearance } from '../hooks/data-hooks'
 
 export const Hero: React.FC = () => {
   const { isDark } = useAppearance()
+
+  const [apertureVisible, setApertureVisible] = useState(false)
+
+  useEffect(() => {
+    setApertureVisible(isDark)
+  }, [isDark])
 
   const btnCls = clsx(
     'flex flex-shrink-0 items-center justify-center',
@@ -24,7 +30,7 @@ export const Hero: React.FC = () => {
         <h2 className="font-bold headline">{WEBSITE_TITLE}</h2>
       </div>
 
-      {isDark && <div className="aperture" />}
+      {apertureVisible && <div className="aperture" />}
 
       <Link className={btnCls} href="/getting-started">
         <span>Get Started</span>
