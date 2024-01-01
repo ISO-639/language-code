@@ -7,11 +7,17 @@ import { useHead } from './hooks/data-hooks'
 
 export default {
   logo: <Logo />,
-  primaryHue: 20,
+  primarySaturation: 0,
   gitTimestamp: () => null,
   head: useHead,
   footer: {
     text: <Copyright />,
+  },
+  editLink: {
+    component: null,
+  },
+  feedback: {
+    content: null,
   },
   useNextSeoProps() {
     const { asPath } = useRouter()
