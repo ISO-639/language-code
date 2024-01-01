@@ -1,5 +1,4 @@
-import React from 'react'
-import { useMemo } from 'react'
+import React, { useMemo } from 'react'
 import { useRouter } from 'next/router'
 import { useConfig, useTheme } from 'nextra-theme-docs'
 import { isServer } from '@bassist/utils'
@@ -18,8 +17,25 @@ export function useAppearance() {
     return resolvedTheme === 'dark'
   }, [resolvedTheme])
 
+  const theme = useMemo(() => {
+    return isDark ? 'dark' : 'light'
+  }, [isDark])
+
   return {
     isDark,
+    theme,
+  }
+}
+
+export function useLogo() {
+  const { theme } = useAppearance()
+
+  const logo = useMemo(() => {
+    return `/assets/ISO-639-${theme}.jpg`
+  }, [theme])
+
+  return {
+    logo,
   }
 }
 
